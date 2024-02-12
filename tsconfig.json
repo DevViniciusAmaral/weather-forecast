@@ -5,6 +5,8 @@
       "@styles/*": ["./src/application/styles/*"],
       "@components/*": ["./src/application/components/*"],
       "@screens/*": ["./src/application/screens/*"],
+      "@stores/*": ["./src/application/stores/*"],
+      "@infrastructure/*": ["./src/infrastructure/*"],
     }
   },
   "extends": "expo/tsconfig.base"

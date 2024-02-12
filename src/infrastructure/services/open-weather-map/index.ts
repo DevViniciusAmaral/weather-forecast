@@ -1,6 +1,6 @@
 import { OPEN_WEATHER_MAP_API_KEY } from "@env";
 import { EOpenWeatherMapService } from "./models/EOpenWeatherMapService";
-import { openWeatherMapApi } from "src/infrastructure/api/open-weather-map";
+import { openWeatherMapApi } from "@infrastructure/api/open-weather-map";
 
 export const openWeatherMapService: EOpenWeatherMapService = {
   oneCall: ({ latitude, longitude }) => {

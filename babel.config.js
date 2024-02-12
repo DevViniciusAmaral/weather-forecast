@@ -19,6 +19,8 @@ module.exports = function (api) {
             "@styles": "./src/application/styles",
             "@components": "./src/application/components",
             "@screens": "./src/application/screens",
+            "@infrastructure": "./src/infrastructure",
+            "@stores": "./src/application/stores",
           },
         },
       ],

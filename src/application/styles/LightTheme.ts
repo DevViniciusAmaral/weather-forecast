@@ -13,7 +13,7 @@ export const lightTheme = {
       light: "#DDE4F8",
       dark: "#5470ED",
     },
-    border: "#EAEAEB",
+    border: "#CCD8F5",
     text: "#141414",
   },
   sizes,

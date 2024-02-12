@@ -1,6 +1,6 @@
 export const sizes = {
   small: 12,
-  large: 16,
+  large: 20,
   default: 14,
-  extraLarge: 24,
+  extraLarge: 50,
 };

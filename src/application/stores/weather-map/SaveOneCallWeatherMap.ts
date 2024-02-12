@@ -1,4 +1,5 @@
-import { IWeatherMap } from "..";
+import { getCurrentPosition } from "src/application/utils/Location";
+import { IWeatherMap } from ".";
 import { IOneCallResponse } from "@infrastructure/services/open-weather-map/models/IOneCallResponse";
 
 interface ISaveOneCallWeatherMap {

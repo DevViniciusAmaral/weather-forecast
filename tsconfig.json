@@ -6,6 +6,8 @@
       "@components/*": ["./src/application/components/*"],
       "@screens/*": ["./src/application/screens/*"],
       "@stores/*": ["./src/application/stores/*"],
+      "@utils/*": ["./src/application/utils/*"],
+      "@hooks/*": ["./src/application/hooks/*"],
       "@infrastructure/*": ["./src/infrastructure/*"],
     }
   },

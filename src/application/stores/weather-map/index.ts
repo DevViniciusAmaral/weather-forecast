@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { database } from "@infrastructure/database";
-import { saveOneCallWeatherMap } from "./hooks/SaveOneCallWeatherMap";
+import { saveOneCallWeatherMap } from "./SaveOneCallWeatherMap";
 import { persist, StateStorage, createJSONStorage } from "zustand/middleware";
 import { IOneCallResponse } from "@infrastructure/services/open-weather-map/models/IOneCallResponse";
 
@@ -19,7 +19,7 @@ export const useWeatherMap = create<IWeatherMap>()(
   persist(
     (set) => ({
       oneCallWeatherMap: [],
-      saveOneCallWeatherMap: (value: IOneCallResponse) =>
+      saveOneCallWeatherMap:  (value: IOneCallResponse) =>
         set((state) => saveOneCallWeatherMap({ state, value })),
     }),
     {

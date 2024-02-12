@@ -1,4 +1,4 @@
-package com.weatherforecast
+package com.viniciusamaral.weatherforecast
 
 import android.os.Build
 import android.os.Bundle

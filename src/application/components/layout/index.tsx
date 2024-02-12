@@ -31,7 +31,7 @@ export const Layout = ({
   const { styles, theme } = useStyles(stylesheet);
 
   const { top } = useSafeAreaInsets();
-  const paddingTop = enablePaddingTop ? top + 16 : 0;
+  const paddingTop = enablePaddingTop ? top : 0;
 
   return (
     <View style={[styles.container(paddingTop), containerStyle]}>
